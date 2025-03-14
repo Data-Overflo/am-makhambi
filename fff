@@ -1,0 +1,44 @@
+# Portfolio Website Setup Guide
+
+## Prerequisites
+1. Install Ruby and Bundler
+2. Have a GitHub account
+
+## Steps to Run Locally
+
+1. Clone your repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+   ```
+
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+3. Start local server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. View your site at: `http://localhost:4000`
+
+## Deployment to GitHub Pages
+
+1. Push your changes to GitHub:
+   ```bash
+   git add .
+   git commit -m "Update portfolio"
+   git push origin main
+   ```
+
+2. Configure GitHub Pages:
+   - Go to repository Settings
+   - Navigate to "Pages" section
+   - Select branch (usually main)
+   - Save settings
+
+Your portfolio will be available at: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
+
+## File Structure
